@@ -11,7 +11,7 @@ const NewHero = () => {
           <p>
             Become a member of our premium coworking ecosystem, which offers the
             greatest desk workstations, upscale boutique offices, and a lively
-            community ready to support the expansion of your company.{" "}
+            community ready to support the expansion of your company.
           </p>
         </div>
         <div></div>
