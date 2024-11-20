@@ -1,0 +1,36 @@
+.terms-container {
+  margin: 3% 5%;
+  font-family: Raleway;
+}
+.terms_title {
+  color: #5b5050;
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+.terms_title_2 {
+  color: #5b5050;
+  font-family: Raleway;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.terms_title_3 {
+  color: #5b5050;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.terms_desc {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 10px;
+  color: #5b5050;
+}

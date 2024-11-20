@@ -1,0 +1,130 @@
+.gallery_main_div {
+  /* width: 100%; */
+  display: block;
+  margin-inline: 50px;
+}
+
+.gallery_main_div_heading {
+  color: #5b5050;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+
+  margin-bottom: 35px;
+  text-align: center;
+  flex: 1;
+  margin-top: 30px;
+  margin-block: 50px;
+}
+
+.gallery_main {
+  display: flex;
+  height: 650px;
+  width: 100%;
+  gap: 10px;
+}
+
+.gallery_main_div_l {
+  display: flex;
+  /* flex: 1; */
+  width: 55%;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 0px rgba(255, 7, 0, 0.5);
+}
+
+.gallery_main_div_r {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery_right_div_t {
+  display: flex;
+  height: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 4px 4px 4px 0px rgba(255, 7, 0, 0.5);
+}
+
+.gallery_right_div_b {
+  display: flex;
+  flex: 1;
+  /* height: 390px; */
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery_r_bottom_div {
+  display: flex;
+  /* flex: 1; */
+  height: 440px;
+  gap: 10px;
+}
+
+.gallery_r_bottom_l {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 0px rgba(255, 7, 0, 0.5);
+}
+
+.gallery_r_bottom_r {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery_r_bottom_r_top {
+  display: flex;
+  /* flex: 1; */
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 0px rgba(255, 7, 0, 0.5);
+  overflow: hidden;
+  height: 50%;
+}
+
+.gallery_r_bottom_r_bottom {
+  display: flex;
+  /* flex: 1; */
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 0px rgba(255, 7, 0, 0.5);
+  height: 50%;
+  overflow: hidden;
+}
+
+.gallery_img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+@media (max-width: 800px) {
+  .gallery_main {
+    display: block;
+    height: auto;
+  }
+  .gallery_main_div_l {
+    width: 100%;
+    height: 300px;
+  }
+  .gallery_main_div_r {
+    margin-top: 10px;
+  }
+  .gallery_main_div {
+    display: block;
+    margin-inline: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .gallery_main_div_heading {
+    font-size: 18px;
+
+    margin-top: 30px;
+    margin-block: 20px;
+  }
+}

@@ -1,0 +1,254 @@
+/* Your existing styles for .main_enquiry_component_child */
+.main_enquiry_component_child {
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+  overflow: overlay;
+  /* scrollbar-width: thin; */
+  /* overflow: hidden; */
+}
+/* For WebKit-based browsers like Chrome and Safari */
+.main_enquiry_component_child::-webkit-scrollbar {
+  display: none;
+}
+
+.main_enquiry_component_child::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  /* transition: background-color 0.5s ease; */
+}
+
+.main_enquiry_component_child::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Solution Details Styles */
+.solution_details {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 300px;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid rgb(121, 121, 121);
+  border-radius: 8px;
+}
+
+.solution_content > * {
+  margin: 0 !important;
+  padding: 2px 0 !important;
+  text-align: start !important;
+}
+
+.solution_content {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.solution_heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+  /* padding-bottom: 12px; */
+  /* padding: 12px 0; */
+  /* width: 80%; */
+}
+.solution_image {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 100%;
+  /* width: 140px; */
+  height: 140px;
+}
+
+.solution_description,
+.solution_subheading {
+  color: rgb(121, 121, 121);
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.solution_description {
+  min-height: 60px;
+}
+
+.solution_points {
+  margin-left: -15px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgb(121, 121, 121);
+}
+
+/* Main Enquiry Component Child One Styles */
+.main_enquiry_component_child_one {
+  height: 8vh;
+  min-height: fit-content;
+  width: 100%;
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+/* Main Enquiry Component Styles */
+.main_enquiry_component {
+  margin: 20px 0;
+}
+.carousel_item_main {
+  overflow: auto;
+  display: flex;
+  gap: 20px;
+  margin: 0 2%;
+}
+
+.carousel_item_main::-webkit-scrollbar {
+  display: none;
+}
+
+/* Enquiry Heading Styles */
+.enquiry_heading {
+  color: #5b5050;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 125% */
+}
+
+/* Enquire Button Styles */
+.enquire_button {
+  width: 100%;
+  height: 6vh;
+  flex-shrink: 0;
+  margin-top: 10px;
+  border-top: 1px solid rgb(179, 179, 179);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: none;
+}
+
+/* Enquire Now Text Styles */
+.enquire_now_text {
+  padding: 10px;
+  color: #00f;
+  width: 100%;
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+  .main_enquiry_component_child_one {
+    gap: 2%;
+  }
+
+  .solution_heading {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .solution_description,
+  .solution_subheading,
+  .solution_points,
+  .enquire_button,
+  .enquire_now_text {
+    font-size: 16px !important;
+    line-height: 26px;
+  }
+  .svgg {
+    width: 13px;
+    height: 20px;
+  }
+  .svg_class {
+    right: 55px !important;
+    gap: 20px !important;
+  }
+  .enquiry_heading {
+    /* width: 100px; */
+    text-align: start;
+    margin-left: 0;
+  }
+
+  .sendd_div {
+    margin-left: 0 !important;
+    width: 50%;
+  }
+
+  .svg_class {
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .main_enquiry_component_child_one {
+    gap: 3%;
+  }
+
+  .solution_heading {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .solution_description,
+  .solution_subheading,
+  .solution_points,
+  .enquire_button,
+  .enquire_now_text {
+    font-size: 16px !important;
+    line-height: 26px;
+  }
+  .svgg {
+    width: 13px;
+    height: 20px;
+  }
+  .svg_class {
+    right: 10px !important;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .main_enquiry_component_child_one {
+    gap: 4%;
+  }
+
+  .solution_heading {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .enquiry_heading {
+    font-size: 30px;
+  }
+
+  /* .solution_description,
+  .solution_subheading,
+  .solution_points,
+  .enquire_button,
+  .enquire_now_text {
+    font-size: 18px !important;
+    line-height: 28px;
+  } */
+  .svgg {
+    width: 13px;
+    height: 20px;
+  }
+  .svg_class {
+    right: 10px !important;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .solution_details {
+    min-width: 20.4vw !important;
+  }
+}

@@ -1,0 +1,139 @@
+.es_main {
+  height: 300px;
+  width: 550px;
+  display: flex;
+  /* background-color: #; */
+  position: relative;
+}
+.es_bg_card {
+  height: 94%;
+  width: 58%;
+
+  display: flex;
+  /* background: linear-gradient(#d75307, #fb8e25, #d75307); */
+  background: linear-gradient(90deg, #6aadd7 0%, #d65b4c 33%, #eea848 65%, #6aadd7 100%);
+  margin-left: 13%;
+  z-index: 1;
+  margin-top: 3%;
+}
+.es_bg_card1 {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  z-index: 0;
+}
+.es_bg_card_one {
+  height: 80%;
+  width: 46%;
+  display: flex;
+  background-color: #fff;
+  top: 13%;
+  position: absolute;
+  left: 1%;
+}
+.es_bg_card_two {
+  height: 80%;
+  width: 46%;
+  display: flex;
+  background-color: #858899;
+  bottom: -20px;
+  right: 3%;
+  position: absolute;
+  z-index: 10;
+}
+
+.es_bg_card_two_content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.es_bg_card_two_content_line {
+  height: 100%;
+  width: 18px !important;
+  /* background-color: #fff; */
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.es_bg_card_two_content_second {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: space-evenly;
+}
+.es_bg_card_heading {
+  font-family: Raleway;
+  font-size: 18px;
+  color: #6aadd7;
+  font-weight: 600;
+}
+.es_bg_card_heading2 {
+  font-family: Raleway;
+  font-size: 35px;
+  color: #fff;
+  font-weight: 600;
+}
+.es_bg_card_heading3 {
+  font-family: Raleway;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.es_bg_card_heading4 {
+  font-family: Raleway;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+  .es_bg_card {
+    height: 94%;
+    width: 60%;
+    margin-left: 22%;
+  }
+  .es_bg_card_one {
+    height: 70%;
+    width: 35%;
+    margin-left: 17%;
+  }
+  .es_bg_card_two {
+    height: 70%;
+    width: 35%;
+    bottom: -20px;
+    right: 8%;
+  }
+  .es_main {
+    height: 200px;
+    width: 90%;
+    display: flex;
+    position: relative;
+  }
+  .es_bg_card_heading {
+    font-family: Raleway;
+    font-size: 12px;
+    color: #6aadd7;
+    font-weight: 600;
+  }
+  .es_bg_card_heading2 {
+    font-family: Raleway;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .es_bg_card_heading3 {
+    font-family: Raleway;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .es_bg_card_heading4 {
+    font-family: Raleway;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+  }
+}

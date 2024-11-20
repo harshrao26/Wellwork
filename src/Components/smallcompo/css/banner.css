@@ -1,0 +1,299 @@
+.banner_main_div {
+  height: 85vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.banner_carousel1 {
+  height: 85vh;
+  display: flex;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+.banner_carousel1_div {
+  height: 86vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.carousel_banner_form {
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  /* bottom: 7%; */
+  flex-direction: column;
+}
+.carousel_banner_form1 {
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  bottom: 7%;
+  flex-direction: column;
+}
+.carousel_banner_heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel_banner_form1 {
+    display: none;
+  }
+  .banner_main_div {
+    height: 60vh;
+  }
+  .banner_carousel1 {
+    height: 60vh;
+  }
+  .banner_carousel1_div {
+    height: 61vh;
+  }
+}
+
+.banner_form_carousel {
+  position: absolute;
+  bottom: 35px;
+  z-index: 1;
+}
+@media screen and (max-width: 767px) {
+  .banner_form_carousel {
+    display: none;
+  }
+  .carousel_banner_heading {
+    font-size: 20px;
+  }
+}
+
+.custom-dot-list-style {
+  padding-bottom: 20px;
+}
+
+.react-multi-carousel-dot button {
+  border: none;
+  height: 5px;
+  width: 5px;
+  background: rgb(211, 207, 207);
+  cursor: pointer;
+}
+
+.background-video {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+  transition: all 0.5s ease; /* Add transition for smoother changes */
+}
+
+@media screen and (max-width: 1300px) {
+  .content {
+    transform: translate(-30%, -10%);
+  }
+}
+
+/* Gradient Span */
+span {
+  border-radius: 50px;
+  background: var(
+    --Gradient-1,
+    linear-gradient(
+      100deg,
+      rgba(255, 255, 255, 0.5) 16.09%,
+      rgba(255, 255, 255, 0.1) 105.27%
+    )
+  );
+  backdrop-filter: blur(2.5px);
+}
+
+/* Content Heading */
+.content > h1 {
+  color: #b72c28;
+  font-family: Raleway;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  line-height: 88px;
+}
+
+/* Play Button */
+.play_button {
+  width: 170px;
+  height: 171px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+/* Content Buttons */
+.content_buttons {
+  display: flex;
+  gap: 10%;
+}
+
+.content_buttons > * {
+  cursor: pointer;
+}
+
+/* First Content Button */
+.content_button_first,
+/* Second Content Button */
+.content_button_second {
+  display: flex;
+  width: 150px;
+  height: 41px;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 50px;
+}
+
+/* First Content Button Styles */
+.content_button_first {
+  background: #ea762b;
+  font-family: Raleway;
+  font-weight: 600;
+  border: none;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Second Content Button Styles */
+.content_button_second {
+  border: 1px solid var(--White, #fff);
+  background: #f6c02c;
+  color: var(--White, #fff);
+  font-family: Raleway;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/* Banner Circle Styles */
+.banner_circle {
+  display: flex;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+  /* Adjustments for small screens */
+  .content {
+    font-size: 16px;
+    top: 25%;
+  }
+
+  .content > h1 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+
+  .content_buttons > * {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Adjustments for medium screens */
+  .content {
+    font-size: 18px;
+    top: 30%;
+  }
+
+  .content > h1 {
+    font-size: 48px;
+    line-height: 64px;
+  }
+
+  .content_buttons > * {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Adjustments for large screens */
+  .content {
+    font-size: 22px;
+    top: 32%;
+  }
+
+  .content > h1 {
+    font-size: 56px;
+    line-height: 72px;
+  }
+
+  .content_buttons > * {
+    font-size: 16px;
+  }
+}
+
+/* Larger screens */
+@media screen and (min-width: 1200px) {
+  /* Adjustments for extra-large screens if needed */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+  .content {
+    font-size: 16px;
+    top: 25%;
+  }
+
+  .content > h1 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+
+  .content_buttons > * {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .content {
+    font-size: 18px;
+    top: 30%;
+  }
+
+  .content > h1 {
+    font-size: 48px;
+    line-height: 64px;
+  }
+
+  .content_buttons > * {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .content {
+    font-size: 22px;
+    top: 32%;
+  }
+
+  .content > h1 {
+    font-size: 56px;
+    line-height: 72px;
+  }
+
+  .content_buttons > * {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+}

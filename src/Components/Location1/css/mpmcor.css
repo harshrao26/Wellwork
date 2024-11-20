@@ -1,0 +1,89 @@
+.mpm-corporate-office {
+  position: relative;
+  background-color: white;
+  width: 300px;
+  left: 0.5%;
+  /* top: 3%; */
+  bottom: 545px;
+  padding: 20px;
+  border: 1px solid #e0d4d4;
+
+  /* 100% */
+}
+
+.office-heading {
+  font-size: 24px;
+  margin-top: 0;
+  color: #5b5050;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+}
+
+.office-description {
+  color: #5b5050;
+  text-align: justify;
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+.office-details {
+  margin-top: 20px;
+}
+
+.address,
+.email,
+.phone,
+.timings,
+.transport {
+  /* margin-bottom: 15px; */
+  display: flex;
+  gap: 8px;
+  color: #5b5050;
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.transport p {
+  margin: 5px 0;
+}
+
+.address > p {
+  color: #5b5050;
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+.map_card_button {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  width: 100%;
+  text-decoration: none;
+  background: #6aadd7;
+  border: none;
+  height: 31px;
+  /* 133.333% */
+}

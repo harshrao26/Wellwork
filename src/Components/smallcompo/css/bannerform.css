@@ -1,0 +1,122 @@
+.banner_form_inner {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  height: fit-content;
+  gap: 7px;
+  flex-grow: 1 1 1 !important;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #d9d9d9;
+  background: #faf9f9;
+}
+
+.css-19b01dr-MuiFormControl-root {
+  margin: 0 !important;
+}
+
+.select_banner_form {
+  border-radius: 5px;
+  border: 1px solid #333;
+  background: #faf9f9;
+}
+
+.select_get_in_touch > img {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .banner_form_inner {
+    flex-direction: column;
+  }
+}
+/* @media screen and (max-width: 800px) {
+  .banner_form_carousel {
+    top: 40vh !important;
+  }
+} */
+
+.banner_form_inner_main_div {
+  width: 100%;
+  display: flex;
+  /* height: 100px; */
+  justify-content: center;
+  align-self: center;
+}
+
+.banner_form_heading {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 120% */
+}
+
+.banner_form_main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Banner_form_button {
+  color: #6aadd7;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  background: none;
+  width: 20%;
+  /* margin-left: auto; */
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+  .banner_form_inner {
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    gap: 1rem;
+  }
+
+  .banner_form_inner > * {
+    width: 60vw !important;
+    justify-items: start;
+  }
+
+  .sendd {
+    margin-right: 10px !important;
+  }
+
+  .Banner_form_button {
+    width: 80%;
+  }
+
+  .banner_form_inner_main_div {
+    width: 100%;
+  }
+
+  .banner_form_carousel {
+    left: -3px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* No specific adjustments for medium screens in the provided code */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* No specific adjustments for large screens in the provided code */
+}
+
+/* Larger screens */
+@media screen and (min-width: 1200px) {
+  /* No specific adjustments for extra-large screens in the provided code */
+}

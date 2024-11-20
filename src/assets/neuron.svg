@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_147" data-name="Rectangle 147" width="49.532" height="51.438" transform="translate(0 0)" fill="none"></rect>
+    </clipPath>
+    <clipPath id="clip-Business_Intelligence_Data_Visualization">
+      <rect width="65" height="65"></rect>
+    </clipPath>
+  </defs>
+  <g id="Business_Intelligence_Data_Visualization" data-name="Business Intelligence&amp; Data Visualization" clip-path="url(#clip-Business_Intelligence_Data_Visualization)">
+    <g id="Group_1" data-name="Group 1" transform="translate(11.121 10.202)">
+      <g id="Group_329" data-name="Group 329" transform="translate(-3 -3)" clip-path="url(#clip-path)">
+        <path id="Path_637" data-name="Path 637" d="M23.808,7.226c0-2.067.184-6.226-5.189-6.226-4.281,0-8.172,4.572-8.3,7.264a6.991,6.991,0,0,0-5.866,7.611c-3.068,1.5-5.292,9.53-1.29,13.338-.727,3.274,1.51,10.774,8.194,10.183,1.627,8.745,12.452,8.483,12.452,2.075V36.282" transform="translate(2.152 2.151)" fill="none" stroke="#6a6c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+        <path id="Path_638" data-name="Path 638" d="M17.243,14.226c-3.774,0-7.264-.588-7.264-6.226" transform="translate(2.49 2.415)" fill="none" stroke="#6a6c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+        <path id="Path_639" data-name="Path 639" d="M10.335,21.023a5.342,5.342,0,0,0,6.293-.979C17.8,18.813,19.052,16.858,20.344,17h16.6" transform="translate(2.504 2.754)" fill="none" stroke="#6a6c6e" stroke-linejoin="round" stroke-width="2"></path>
+        <path id="Path_640" data-name="Path 640" d="M17.979,35.249C18.742,33.464,20.573,33,23.168,33h13.49" transform="translate(2.792 3.358)" fill="none" stroke="#6a6c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+        <path id="Path_641" data-name="Path 641" d="M12.557,32.46c-1.739-.273-3.274-1.912-3.274-3.274" transform="translate(2.464 3.214)" fill="none" stroke="#6a6c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+        <path id="Path_642" data-name="Path 642" d="M10.979,38.332c0-3.99,2.263-9.145,8.061-9.145" transform="translate(2.528 3.214)" fill="none" stroke="#6a6c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+        <path id="Path_643" data-name="Path 643" d="M7.18,17.9a3.12,3.12,0,0,1,3.274,3.087,3.525,3.525,0,0,1-2.182,3.274" transform="translate(2.385 2.788)" fill="none" stroke="#6a6c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+        <path id="Path_644" data-name="Path 644" d="M29.444,9.1H23.218c-2.822,0-5.6-.431-6.574-2.845" transform="translate(2.741 2.349)" fill="none" stroke="#6a6c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+        <line id="Line_70" data-name="Line 70" y2="6.226" transform="translate(25.96 13.528)" fill="none" stroke="#6a6c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line>
+        <line id="Line_71" data-name="Line 71" y2="11.415" transform="translate(25.96 22.163)" fill="none" stroke="#6a6c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line>
+        <line id="Line_72" data-name="Line 72" x2="6.226" transform="translate(25.96 28.056)" fill="none" stroke="#6a6c6e" stroke-linejoin="round" stroke-width="2.5"></line>
+        <line id="Line_73" data-name="Line 73" x2="3.311" transform="translate(28.875 44.659)" fill="none" stroke="#6a6c6e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line>
+        <circle id="Ellipse_5" data-name="Ellipse 5" cx="3.113" cy="3.113" r="3.113" transform="translate(39.45 16.641)" fill="none" stroke="#6a6c6e" stroke-linejoin="round" stroke-width="2"></circle>
+        <circle id="Ellipse_6" data-name="Ellipse 6" cx="3.113" cy="3.113" r="3.113" transform="translate(32.186 8.34)" fill="none" stroke="#6a6c6e" stroke-linejoin="round" stroke-width="2"></circle>
+        <circle id="Ellipse_7" data-name="Ellipse 7" cx="3.113" cy="3.113" r="3.113" transform="translate(32.186 24.943)" fill="none" stroke="#6a6c6e" stroke-linejoin="round" stroke-width="2"></circle>
+        <circle id="Ellipse_8" data-name="Ellipse 8" cx="3.113" cy="3.113" r="3.113" transform="translate(32.186 41.546)" fill="none" stroke="#6a6c6e" stroke-linejoin="round" stroke-width="2"></circle>
+        <circle id="Ellipse_9" data-name="Ellipse 9" cx="3.113" cy="3.113" r="3.113" transform="translate(39.45 33.244)" fill="none" stroke="#6a6c6e" stroke-linejoin="round" stroke-width="2"></circle>
+      </g>
+    </g>
+  </g>
+</svg>
